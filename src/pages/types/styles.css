@@ -1,0 +1,62 @@
+.type-tshirt {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.type-table.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root {
+  width: 30%;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-image-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.image-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.image {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.delete-image-button {
+  width: 25px;
+  position: absolute;
+  left: auto;
+  right: 80px;
+
+  background-color: #ff0000;
+  color: #fff;
+  padding: 4px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
